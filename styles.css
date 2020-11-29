@@ -2,27 +2,49 @@
 body {
   font-family: sans-serif;
 }
+
 header {
   color: white;
   background-image: url(https://raw.githubusercontent.com/UWFront-End-Cert/starters/master/lesson04-mock2-banner-image.jpg);
   background-color: darkcyan;
   height: 200px;
 }
+
+.headerbox {
+  box-sizing: border-box;
+  width: 500px;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
 nav {
   color: black;
   background-color: aliceblue;
-  height: 50px;
+  padding: 25px;
+}
+
+.navbox {
+  box-sizing: border-box;
+  color: black;
+  width: 525px;
+  padding: 25px;
+}
+
+.catbox {
+  padding: 50px 50px;
 }
 
 aside {
   float: right;
-  width: 30rem;
+  width: 25rem;
+  padding-bottom: 50px;
   color: dimgrey;
-
 }
-section {
 
+aside figure {
+  margin: 20px 0px;
 }
+
 h3 {
   color: black;
 }
@@ -31,34 +53,40 @@ h4 {
   color: darkcyan;
 }
 
-.headerbox {
-  box-sizing: border-box;
-  width: 500px;
-  margin-left: 100px;
-  margin-top: 50px;
-}
 .quote {
   color: darkcyan;
-  margin-top: 50px;
+  padding: 25px 0px;
 }
 
 .box {
   box-sizing: border-box;
-  width: 525px;
-  margin-left: 100px;
+  width: 650px;
 }
 
 .storybox {
   box-sizing: border-box;
-  width: 525px;
-  margin-left: 100px;
-  margin-top: 50px;
+  width: 650px;
+}
+
+.linkcolor {
+  color: darkcyan;
 }
 
 footer {
+  text-align: center;
   clear: both;
+  padding-top: 50px;
   height: 15rem;
   color: white;
-  background-image: url(https://raw.githubusercontent.com/UWFront-End-Cert/starters/master/lesson04-mock5-cat-logo.png);
-  background-color: black;
+  background-color: #333333;
+}
+
+footer p {
+  max-width: 450px;
+  margin: 20px auto;
+}
+
+.footerlink {
+  color: white;
+  padding: 20px;
 }
