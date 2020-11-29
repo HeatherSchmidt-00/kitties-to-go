@@ -1,0 +1,64 @@
+
+body {
+  font-family: sans-serif;
+}
+header {
+  color: white;
+  background-image: url(https://raw.githubusercontent.com/UWFront-End-Cert/starters/master/lesson04-mock2-banner-image.jpg);
+  background-color: darkcyan;
+  height: 200px;
+}
+nav {
+  color: black;
+  background-color: aliceblue;
+  height: 50px;
+}
+
+aside {
+  float: right;
+  width: 30rem;
+  color: dimgrey;
+
+}
+section {
+
+}
+h3 {
+  color: black;
+}
+
+h4 {
+  color: darkcyan;
+}
+
+.headerbox {
+  box-sizing: border-box;
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.quote {
+  color: darkcyan;
+  margin-top: 50px;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 525px;
+  margin-left: 100px;
+}
+
+.storybox {
+  box-sizing: border-box;
+  width: 525px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+footer {
+  clear: both;
+  height: 15rem;
+  color: white;
+  background-image: url(https://raw.githubusercontent.com/UWFront-End-Cert/starters/master/lesson04-mock5-cat-logo.png);
+  background-color: black;
+}
